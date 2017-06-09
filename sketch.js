@@ -6,7 +6,7 @@
  */
 
 var snake;
-var gridScale = 15;
+var gridScale = 10;
 var food;
 function setup() {
 createP('Press with Mouse in Black Area');
@@ -66,7 +66,7 @@ if(snake.eat(food)) {
 }
 
 fill(231, 76, 60);
-rect(food.x , food.y , 8, 8);
+rect(food.x , food.y , gridScale, gridScale);
 
 
 }
