@@ -4,7 +4,7 @@ this.x = 0;
 this.y = 0;
 this.xSpeed = 1;
 this.ySpeed = 0;
-this.grid = 15;
+this.grid = 10;
 this.total = 0;
 this.tail = [];
 //   rgb(231, 76, 60)
